@@ -81,14 +81,6 @@ def lcm():
     dis('Table ' + str(i))
     i += 1
 
-#Not Implemented Yet
-#Please Ignore
-def vam():
-  ccost = cost.copy()
-  for i in range(3):
-    ccost[i].sort()
-  print(ccost)
-
 #Giving Input, & Defining Variables
 infinity = math.inf
 mat = [[0 for i in range(4)] for i in range(3)]
